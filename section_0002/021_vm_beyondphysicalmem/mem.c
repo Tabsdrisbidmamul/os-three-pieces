@@ -13,7 +13,7 @@ double Time_GetSeconds() {
 }
 
 // Program that allocates an array of ints of certain size,
-// and then proceeeds to update each int in a loop, forever.
+// and then proceeds to update each int in a loop, forever.
 int main(int argc, char *argv[]) {
     if (argc != 2) {
       fprintf(stderr, "usage: spin <memory (MB)>\n");
